@@ -1,0 +1,89 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilos para el encabezado principal */
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilos para los encabezados secundarios */
+h2 {
+    color: #34495e;
+    text-align: left;
+    margin-left: 20px;
+}
+
+/* Estilos para párrafos */
+p {
+    line-height: 1.6;
+    margin: 10px 20px;
+}
+
+/* Estilos para las listas */
+ul, ol {
+    margin: 10px 40px;
+}
+
+/* Estilos para las imágenes */
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+/* Estilos para los enlaces */
+a {
+    color: #2980b9;
+    text-decoration: none;
+    padding: 5px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos específicos con clase */
+#contacto-formulario {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul li {
+    font-size: 16px;
+}
+
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+tr:nth-child(even) td {
+    background-color: #f1f1f1;
+}
